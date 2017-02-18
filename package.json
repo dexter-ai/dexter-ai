@@ -1,0 +1,25 @@
+{
+  "name": "dexter-ai",
+  "version": "1.0.0",
+  "description": "Let there be light!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexter-ai/dexter-ai.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dexter-ai/dexter-ai/issues"
+  },
+  "homepage": "https://github.com/dexter-ai/dexter-ai#readme",
+  "dependencies": {
+    "@slack/client": "^3.8.1",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "yamljs": "^0.2.8"
+  }
+}

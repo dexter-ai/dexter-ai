@@ -1,0 +1,22 @@
+---
+id: test
+shouldSkip: true
+inputData: null
+
+nodes:
+    - id: id1
+      type: API
+      params:
+            url: https://www.mindiq.in
+            method: GET
+            output:
+              success: 'MindIQ Website is working'
+              error: 'MindIQ  website is not working'
+    - id: id1
+      type: API
+      params:
+            url: https://www.mindiq.in
+            method: GET
+            output:
+              success: 'MindIQ Website is working'
+              error: 'MindIQ website is not working'
