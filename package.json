@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/dexter-ai/dexter-ai.git"
   },
-  "author": "",
+  "author": "Sinister Light",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dexter-ai/dexter-ai/issues"
@@ -18,8 +18,12 @@
   "homepage": "https://github.com/dexter-ai/dexter-ai#readme",
   "dependencies": {
     "@slack/client": "^3.8.1",
+    "nconf": "^0.8.4",
     "q": "^1.4.1",
     "request": "^2.79.0",
     "yamljs": "^0.2.8"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
